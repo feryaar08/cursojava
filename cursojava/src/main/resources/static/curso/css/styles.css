@@ -1,0 +1,93 @@
+/* Estilos Generales */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Estilos para el Formulario */
+#formularioUsuario {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin-bottom: 20px; /* Margen debajo del formulario */
+}
+
+#formularioUsuario label,
+#formularioUsuario input,
+#formularioUsuario button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#formularioUsuario label {
+  margin-bottom: 5px;
+}
+
+#formularioUsuario button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#formularioUsuario button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para Mensajes */
+#mensajes {
+  color: red;
+  text-align: center;
+}
+
+/* Estilos para el Contenedor de la Tabla */
+#contenedorTabla {
+  max-height: 200px; /* Altura máxima del contenedor de la tabla */
+  overflow-y: auto; /* Scroll vertical si es necesario */
+  width: 100%; /* Ancho del contenedor */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para el contenedor */
+}
+
+/* Estilos para la Tabla */
+#result {
+  width: 100%; /* Ancho de la tabla */
+  border-collapse: collapse; /* Para un mejor aspecto */
+}
+
+#result th, #result td {
+  border: 1px solid #ddd; /* Estilo para las celdas */
+  padding: 8px; /* Espaciado dentro de las celdas */
+}
+
+#result th {
+  background-color: #f4f4f4; /* Color de fondo para los encabezados */
+}
+
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
